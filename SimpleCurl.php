@@ -6,7 +6,7 @@ class SimpleCurl
 
     public static function init()
     {
-        if(isset(self::$ch)) {
+        if(isset(self::$ch) && is_resource(self::$ch)) {
             return self::$ch;
         }
 
