@@ -1,5 +1,5 @@
 <?php
-require_once '../SimpleCurl.php';
+require_once __DIR__.'/../SimpleCurl.php';
 
 class SimpleCurlTest extends PHPUnit_Framework_TestCase
 {
